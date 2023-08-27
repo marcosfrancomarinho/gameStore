@@ -227,7 +227,7 @@ nav {
 
 .formbox {
     max-width: 300px;
-    height: 300px;
+    height: 315px;
     background-color: #ffffffb6;
     float: right;
     padding: 15px;
@@ -290,10 +290,6 @@ footer {
     font-size: 30px;
     text-shadow: 2px 2px rgb(6, 0, 0), 3px 3px rgb(177, 7, 7);
     color: #0caab5;
-
-
-
-
 }
 
 
