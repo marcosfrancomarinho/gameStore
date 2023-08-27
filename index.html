@@ -54,7 +54,7 @@
         <div class="formbox">
             <h4>compre agora e entre para game</h4>
            <form name="contact" method="POST" data-netlify="true">
-                <input type="email" id="email" name="EMAIL" placeholder="Email">
+                <input type="email" id="email" name="EMAIL" placeholder="Email" required>
                 <select name="MOVIES" required>
                     <option value="spiderman">Homem-Aranha</option>
                     <option value="asphalt">Asphalt Legend</option>
@@ -64,7 +64,7 @@
                     <option value="godofwar">God of War</option>
                     <option value="fifa">Fifa Manager</option>
                 </select>
-                <input type="submit" value="COMPRAR" onsubmit = "check()">
+                <input type="submit" value="COMPRAR">
             </form>
         </div>
     </section>
@@ -80,15 +80,6 @@
                     target="_blank">Youtube</a></li>
         </ul>
     </footer><span id="rodape"></span>
-
-    <script>
-        const email = document.querySelector("#email");
-        function chek(){
-            if(email.value.length == 0){
-                alert("ERROR - PREENCHA O CAMPO INDICADO")
-            }
-                }
-    </script>
 </body>
 
 </html>
