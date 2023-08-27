@@ -56,7 +56,6 @@
            <form name="contact" method="POST" data-netlify="true">
                 <input type="email" id="email" name="EMAIL" placeholder="Email">
                 <select name="MOVIES" required>
-                    <option selected hidden disabled required>Escolha o Game</option>
                     <option value="spiderman">Homem-Aranha</option>
                     <option value="asphalt">Asphalt Legend</option>
                     <option value="sonic">Sonic</option>
@@ -65,7 +64,7 @@
                     <option value="godofwar">God of War</option>
                     <option value="fifa">Fifa Manager</option>
                 </select>
-                <input type="submit" value="COMPRAR">
+                <input type="submit" value="COMPRAR" onsubmit = "check()">
             </form>
         </div>
     </section>
@@ -81,6 +80,15 @@
                     target="_blank">Youtube</a></li>
         </ul>
     </footer><span id="rodape"></span>
+
+    <script>
+        const email = document.querySelector("#email");
+        function chek(){
+            if(email.value.length == 0){
+                alert("ERROR - PREENCHA O CAMPO INDICADO")
+            }
+                }
+    </script>
 </body>
 
 </html>
