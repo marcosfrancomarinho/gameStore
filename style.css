@@ -329,6 +329,9 @@ footer {
         display: block;
 
     }
+    .galery .container div img:hover {
+        animation: none;
+    }
 
     .menu {
         float: none;
